@@ -1,0 +1,20 @@
+package me.swapneel.studentapi.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import me.swapneel.studentapi.dao.StudentDao;
+import me.swapneel.studentapi.model.Student;
+@RestController
+public class StudentController {
+	
+	@Autowired
+	private StudentDao dao;
+	
+	@RequestMapping("/students")
+	public List<Student> getAllStudents(){
+		
+	}
+	
+}

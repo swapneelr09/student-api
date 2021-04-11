@@ -1,0 +1,5 @@
+package me.swapneel.studentapi.controller;
+
+public class StudentController {
+
+}
